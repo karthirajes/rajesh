@@ -2,7 +2,7 @@
 #include<string.h>
 int main() 
 {
-    char s[15];
+    char a1[15];
     int a,b;
     scanf("%d",s);
     a=strlen(s);
@@ -10,14 +10,14 @@ int main()
     {
      b=a/2;
      s[b]='*';
-      printf("%s",s);
+      printf("%s",a1);
     }
     else
      {
         b=a/2;
         s[b]='*';
         s[b-1]='*';
-         printf("%s",s);
+         printf("%s",a1);
      }
    return 0;
 }
