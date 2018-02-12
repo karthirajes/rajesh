@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main() 
+int main() 
 {
     char s[15];
     int a,b;
@@ -19,5 +19,5 @@ void main()
         s[b-1]='*';
          printf("%s",s);
      }
-   
+   return 0;
 }
